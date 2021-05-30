@@ -1,0 +1,83 @@
+* { /* CSS reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #202020;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+#picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(100%);
+}
+#picture:hover {
+  transform: scale(1.1);
+  filter: grayscale(10%);
+}
+.profile-image {
+  margin-top: -60px;
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+.content {
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .4);
+}
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+.social-icon{
+  color: hsla(0, 0%, 0%, .6);
+}
+span{
+  font-size: 80%;
+  color: hsla(0, 0%, 0%, .6);
+}
+h1{
+  text-transform: uppercase;
+  font-size: 22px;
+}
+h2{
+  font-size: 18px;
+}
+h3{
+  font-size: 14px;
+}
+p{
+  font-size: 14px;
+  font-weight: 600;
+}
+table{
+  width: 20%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  font-size: 14px;
+}
